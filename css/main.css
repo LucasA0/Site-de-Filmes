@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #1C1D21;
+}
+.navlink a:hover{
+    color: #63B0CD;
+}
+.container-footer{
+    background: linear-gradient(180deg, rgba(207,207,207,1) 0%, rgba(0,0,0,0.8911939775910365) 0%);
+    min-height: 8rem;
+}
+.container-footer p{
+    color: white;
+}
+.container-footer i{
+    color: white;
+    font-size: 2rem;
+}
+.notice{
+    padding-top: 0.5rem;
+    width: 100%;
+    font-size: 18px;
+    background-color: #39393A;
+    min-height: 30vh;
+    color: #F5ECCD;
+    font-family: 'Macondo', cursive;
+}
+.principal-text{
+    position: absolute;
+    bottom: 23rem;
+}
+.map iframe{
+    width: 100%;
+    min-height: 80vh;
+}
+.p-cat h4{
+    padding-left: 1rem;
+    font-size: 22px;
+}
+.card{
+    border: none;
+    border-style: none;
+}
+.card-img-top:hover{
+    box-shadow: 4px 4px 8px white;
+    cursor: pointer;
+}
+.m-text{
+    height: 20%;
+    background-color:#dcdde1;
+}
+.paragraph{
+    padding-top: 0.7rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.mc-content{
+    background: linear-gradient(180deg, rgba(207,207,207,1) 0%, rgba(0,0,0,0.8911939775910365) 0%);
+}
